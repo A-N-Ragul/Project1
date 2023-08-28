@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: bordback.jpger-box;
+    font-family: 'Poppins',sans-serif;
+}
+.boady{
+    color:aliceblue;
+}
+.header{
+    position: fixed;
+    top:0%;
+    left: 0%;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent 50%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+.main{
+    min-height: 100vh;
+    background: url('outrun-neon-dark-background-purple-3840x2160-4523.jpg')no-repeat ;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.ins{
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    width: 10;
+    padding: 5px 5px;
+}
+.ins{ 
+    width:  100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ 
+}
+.content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.content h3{
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,3);
+    margin-bottom: 10px;
+}
+.content h1{
+
+    font-size: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 10;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0,0,0,3);
+}
+.content .st{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100px;
+    height: 50px;
+    background: #c40094;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #c40094;
+    color:#fff ;
+    letter-spacing: 1px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.popup-info h2 {
+    font-size: 50px;
+    color: #c40094; 
+}
